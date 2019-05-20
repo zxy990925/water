@@ -1,0 +1,148 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13)
+}
+header> span{
+    color: #4ebbfe;
+}
+header>a{
+    color: #4ebbfe;
+}
+
+.goods{
+    padding: 1.18rem 0.22rem;
+    height: auto;
+}
+
+.comment{
+    height: auto;
+    padding: 0 0.22rem;
+}
+.comment .commentItem{
+    border-bottom: 0.01rem solid #d8dfe3;
+    display: flex;
+}
+
+.comment .avatar{
+    width: 1.74rem;
+    height: 1.74rem;
+}
+
+.lt>.qs::before{
+    content: '';
+    position: absolute;
+    left: 0.3rem;
+    top: 2.8rem;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #36d681;
+}
+.commentItem .right{
+    width: 5rem;
+    margin-left: 0.24rem;
+}
+.lt {
+    margin-top: 0.45rem;
+    height: 0.5rem;
+}
+.lt .qs{
+    color: #000000;
+    opacity: 0.6;
+    float: left;
+}
+.lt .jian{
+     width: 0.2rem;
+     height: 0.2rem;
+     float: right;
+     border-radius: 50%;
+ }
+.lt .jia{
+    width: 0.2rem;
+    height: 0.2rem;
+    float: right;
+    border-radius: 50%;
+
+}
+.num{
+    float: right;
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.jg{
+    height: 0.5rem;
+}
+.jg .price{
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+    float: left;
+
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hjjg .hj{
+    font-size: 0.24rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.hjjg .jg{
+    color: #36a8fe;
+}
+.left .yhyh .yf{
+    font-size: 0.2rem;
+    color: #3bacfe;
+
+}
+.yhyh .yh{
+    font-size: 0.2rem;
+    color: #3bacfe;
+}
+
+
+.right .mj{
+    display: block;
+    width: 0.8rem;
+    height: 0.6rem;
+    font-size: 0.24rem;
+    padding: 0.08rem 1.5rem;
+    color: #ffffff;
+    background-color: rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin: 0.26rem 0.26rem 0 1.04rem;
+}
+.right>p{
+
+    display: block;
+    margin: 0.3rem;
+
+}
+
+
+.tu{
+    width: 6.5rem;
+    float: right;
+    height: 10rem;
+    margin-top: 1rem;
+}

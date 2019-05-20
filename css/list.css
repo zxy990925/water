@@ -1,0 +1,136 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header> span{
+    color: #4ebbfe;
+}
+header>a{
+    color: #4ebbfe;
+}
+
+/*header*/
+.order{
+    height: 0.88rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size: 0.22rem;
+    color: #4ebbfe;
+}
+.order>li.hot{
+    color: #36d681;
+}
+.order >li >.iconfont{
+    font-size: 0.22rem;
+    margin-left: 0.2rem;
+}
+
+/*order*/
+
+.list{
+    width: 100%;
+    /*加100%是因为定位，就不能继承了*/
+    position: absolute;
+    top: 2.7rem;
+    bottom: 0;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 0.7rem;
+}
+
+.list-item{
+    height: 1.74rem;
+    margin-bottom: 0.66rem;
+}
+.list-item a{
+    display: block;
+    width: 1.74rem;
+    height: 1.74rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+
+.list-item>a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.thum{
+    width: 1.74rem;
+    height: 1.74rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+}
+.info{
+    width: 2rem;
+    height: 1.74rem;
+    flex-grow: 1;
+    padding-left: 0.26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info>h1{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+}
+.info>.score{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.info>.score>span{
+    position: relative;
+    padding-left: 0.14rem;
+    margin-right: 0.58rem;
+}
+.info>.score>span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.14rem;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #36a8fe;
+}
+.info>.score strong{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+
+.info>.tag{
+    font-size: 0.2rem;
+    color: #36a8fe;
+}
+.info>.tag>span{
+    padding: 0.08rem 0.2rem;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.28rem;
+}
+.info .total{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.18rem;
+}
+.info .price{
+    position: absolute;
+    right: 0.42rem;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #ffbb48;
+}
