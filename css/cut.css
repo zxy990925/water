@@ -1,0 +1,149 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header> span{
+    color: #4ebbfe;
+}
+header>a{
+    color: #4ebbfe;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+
+/*header*/
+.search >a{
+    padding: 0.18rem 0.6rem;
+    font-size: 0.24rem;
+    color: #c8d9e6;
+    float: left;
+    width: 5.88rem;
+    margin-left: 0.14rem;
+    background: #f4fbff;
+    height: 0.3rem;
+    border: 0.01rem solid #89919a;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13)
+
+}
+/*search*/
+
+.dingwei{
+    width: 100%;
+    height: 1rem;
+    margin-top: 1.5rem;
+    border-bottom: 0.01rem #f2eded solid;
+}
+.dingwei .dangqian{
+    width: 1.57rem;
+    height: 0.25rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.4;
+    float: left;
+    margin-left: 0.54rem;
+}
+.dingwei>span::before{
+    content: '';
+    position: absolute;
+    left: 0.3rem;
+    top: 2.55rem;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+}
+.dingwei .taiyuan{
+    padding: 0 0.3rem;
+    display: block;
+    width: 0.6rem;
+    height: 0.48rem;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.24rem;
+    float: left;
+    margin-left: 0.2rem;
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.a {
+    width: 0.24rem;
+    height: 0.44rem;
+    background: #36a8fe;
+    border-radius: 50%;
+    padding: 0 0.1rem;
+    margin: 0.38rem;
+}
+.a>span{
+    color: #fbfeff;
+}
+
+.anshan{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.4;
+    margin-left: 0.48rem;
+}
+.b {
+    width: 0.24rem;
+    height: 0.44rem;
+    background: #36a8fe;
+    border-radius: 50%;
+    padding: 0 0.1rem;
+    margin: 0.38rem;
+}
+.b>span{
+    color: #fbfeff;
+}
+
+.baoding ul{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.4;
+}
+.baoding ul>li{
+    margin-bottom: 0.46rem;
+    margin-left: 0.46rem;
+    border-bottom: 0.01rem #f2eded solid;
+}
+.zimu{
+    overflow: hidden;
+    float: right;
+    font-size: 0.20rem;
+    color: #c1c1c1;
+    margin-right: 0.23rem;
+}
+.zimu>ul>li{
+    margin-bottom: 0.1rem;
+}
+
+.wz{
+    width: 5rem;
+    float: left;
+}
+.a>span::before{
+    content: '';
+    position: absolute;
+    left: 0.25rem;
+    top: 4.75rem;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+}
+.baoding>ul>li::before{
+    content: '';
+    position: absolute;
+    left: 0.25rem;
+    top: 4.75rem;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+}
