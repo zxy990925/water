@@ -225,7 +225,7 @@ footer{
     rgba(59, 172, 254, 0.43);
     border-radius: 0.30rem;
 }
-.fk span{
+.fk >a>span{
     font-size: 0.24rem;
     color: #ffffff;
     margin-left: 1.35rem;

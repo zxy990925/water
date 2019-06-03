@@ -81,7 +81,7 @@ header>a{
 .weixin{
     height: 2rem;
 }
-.weixin .wxzf{
+.weixin .wxzf>a>span{
     width: 1.17rem;
     height: 1rem;
     margin-top: 0.35rem;

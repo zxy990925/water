@@ -14,12 +14,12 @@ header{
     height: 0.6rem;
     line-height: 0.6rem;
 }
-.search >span{
+.search >a>span{
     float: left;
     color: #4ebbfe;
     font-size: 0.28rem;
 }
-.search >a{
+.search .a{
     float: right;
     width: 5.93rem;
     height: 0.6rem;
